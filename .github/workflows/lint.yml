@@ -14,8 +14,8 @@ jobs:
         with:
           version: 12
           style: file
-          # extensions: c,h,C,H,cpp,hpp,c++,h++
-          # files-changed-only: true
+          extensions: c,h,C,H,cpp,hpp,c++,h++
+          files-changed-only: false
           # lines-changed-only: false
           # tidy-checks: readability-*
 
