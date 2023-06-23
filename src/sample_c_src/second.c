@@ -21,3 +21,19 @@ void print_struct(my_struct *sample)
 {
     printf("%d\n%s\n%lf\n", sample->val, sample->struct_string, sample->dval);
 }
+
+void check_if_statements(void) {
+    int a = 0;
+    if (a > -1) {
+        printf("1\n");
+    }
+
+    if(a==0){
+        printf( "2\n" );
+    }
+
+    if (a != 10)
+    {
+        printf("3\n");
+    }
+}
