@@ -22,7 +22,17 @@ BinPackArguments: 'false'
 BinPackParameters: 'false'
 BreakAfterJavaFieldAnnotations: 'true'
 BreakBeforeBinaryOperators: None
-BreakBeforeBraces: Linux
+BreakBeforeBraces: Custom
+BraceWrapping:
+    AfterControlStatement: Always 
+    AfterClass: true
+    AfterEnum: true
+    AfterExternBlock: true
+    AfterFunction: true
+    AfterStruct: true
+    BeforeElse: true
+    BeforeWhile: false
+    SplitEmptyFunction: false 
 IndentWidth: '4'
 
 ...
