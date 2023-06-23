@@ -19,6 +19,8 @@ jobs:
           step-summary: true
           # lines-changed-only: false
           tidy-checks: readability-*
+            MinimumVariableNameLength: 0
+            MinimumParameterNameLength: 0
 
       - name: Fail fast?!
         if: steps.linter.outputs.checks-failed > 0
