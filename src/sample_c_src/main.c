@@ -3,18 +3,14 @@
 
 int main()
 {
-    // declared two variables
     int a = 4, b = 5;
 
-    // sum function called
     int ans = sum(a, b);
     printf("Sum: %d", ans);
 
-    // sub function called
     ans = sub(a, b);
     printf("Subtraction: %d", ans);
 
-    // multiply function called
     ans = multiply(a, b);
     printf("Multiply: %d", ans);
 
