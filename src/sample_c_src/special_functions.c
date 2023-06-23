@@ -5,7 +5,7 @@
 static void helper_function();
 
 /* Extra function definitions */
-void special_function(struct struct_type my_struct, union union_type my_union) 
+void special_function(struct_type my_struct, union_type my_union) 
 {
   helper_function();
 }
