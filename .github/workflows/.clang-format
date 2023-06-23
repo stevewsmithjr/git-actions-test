@@ -1,4 +1,3 @@
----
 BasedOnStyle: LLVM
 AccessModifierOffset: '-4'
 AlignAfterOpenBracket: Align
@@ -18,12 +17,9 @@ AlwaysBreakAfterDefinitionReturnType: None
 AlwaysBreakAfterReturnType: None
 AlwaysBreakBeforeMultilineStrings: 'false'
 AlwaysBreakTemplateDeclarations: 'Yes'
-BinPackArguments: 'true'
-BinPackParameters: 'true'
+BinPackArguments: 'false'
+BinPackParameters: 'false'
 BreakAfterJavaFieldAnnotations: 'true'
 BreakBeforeBinaryOperators: None
 BreakBeforeBraces: Linux
 IndentWidth: '4'
-Language: Cpp
-
-...
