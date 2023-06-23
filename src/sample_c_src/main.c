@@ -8,7 +8,8 @@
 void helper_function();
 
 /* Main program */
-int main() {
+int main() 
+{
   struct struct_type my_struct = { .val1 = 1 , .val2 = 1};
   union union_type my_union = { .n = 1 };
 
