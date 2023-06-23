@@ -22,16 +22,18 @@ void print_struct(my_struct *sample)
     printf("%d\n%s\n%lf\n", sample->val, sample->struct_string, sample->dval);
 }
 
-void check_control_blocks(void) { // brace should be on new line
+void check_control_blocks(void)
+{ // brace should be on new line
     int a = 0;
 
-    if (a > -1) { // brace should be on new line
+    if (a > -1)
+    { // brace should be on new line
         printf("1\n");
     }
 
-    if(a==0) // improper spacing after keyword and in condition
+    if (a == 0) // improper spacing after keyword and in condition
     {
-        printf( "2\n" ); // improper spacing
+        printf("2\n"); // improper spacing
     }
 
     if (a != 10)
@@ -39,12 +41,13 @@ void check_control_blocks(void) { // brace should be on new line
         printf("3\n");
     }
 
-    while(a < 10) // improper spacing after keyword
+    while (a < 10) // improper spacing after keyword
     {
         a++;
     }
 
-    while (a > 0) { // brace should be on new line
+    while (a > 0)
+    { // brace should be on new line
         a--;
     }
 
@@ -52,22 +55,23 @@ void check_control_blocks(void) { // brace should be on new line
     {
         a++;
     }
-    
-    for(int i = 0; i < 10; i++) // improper spacing after keyword
+
+    for (int i = 0; i < 10; i++) // improper spacing after keyword
     {
         printf("%d\n", i);
     }
 
-    for (int i = 0; i < 10; i++) { // brace should be on new line
+    for (int i = 0; i < 10; i++)
+    { // brace should be on new line
         printf("%d\n", i);
     }
 
-    for ( int i =0; i< 10;i++) // improper spacing in loop statements
-    { 
+    for (int i = 0; i < 10; i++) // improper spacing in loop statements
+    {
         printf("%d\n", i);
     }
 
-    for (int i = 0; i < 10; i++) 
+    for (int i = 0; i < 10; i++)
     {
         printf("%d\n", i);
     }
