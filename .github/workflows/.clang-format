@@ -1,14 +1,4 @@
 ---
-AlignAfterOpenBracket: Align
-AlignConsecutiveMacros: 'false'
-AlignConsecutiveAssignments: 'false'
-AlignConsecutiveDeclarations: 'false'
-AlignEscapedNewlines: Align
-AlignOperands: 'true'
-AllowAllParametersOfDeclarationOnNextLine: 'true'
-AllowShortFunctionsOnASingleLine: Empty
-AllowShortIfStatementsOnASingleLine: Never
-AllowShortLoopsOnASingleLine: 'false'
 BreakBeforeBraces: Linux
 IndentWidth: '4'
 ...
