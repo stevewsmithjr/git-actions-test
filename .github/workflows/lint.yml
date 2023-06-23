@@ -14,10 +14,10 @@ jobs:
         with:
           version: 12
           style: file
-          extensions: c,h,C,H,cpp,hpp,c++,h++
-          files-changed-only: true
-          lines-changed-only: false
-          tidy-checks: readability-*
+          # extensions: c,h,C,H,cpp,hpp,c++,h++
+          # files-changed-only: true
+          # lines-changed-only: false
+          # tidy-checks: readability-*
 
       - name: Fail fast?!
         if: steps.linter.outputs.checks-failed > 0
