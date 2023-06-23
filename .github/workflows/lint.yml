@@ -17,7 +17,7 @@ jobs:
           files-changed-only: false
           step-summary: true
           # lines-changed-only: false
-           tidy-checks: ''
+          tidy-checks: readability-*
 
       - name: Fail fast?!
         if: steps.linter.outputs.checks-failed > 0

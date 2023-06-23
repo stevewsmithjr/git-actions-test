@@ -1,3 +1,4 @@
+---
 BasedOnStyle: LLVM
 AccessModifierOffset: '-4'
 AlignAfterOpenBracket: Align
@@ -23,3 +24,5 @@ BreakAfterJavaFieldAnnotations: 'true'
 BreakBeforeBinaryOperators: None
 BreakBeforeBraces: Linux
 IndentWidth: '4'
+
+...
