@@ -16,6 +16,7 @@ jobs:
           style: file
           extensions: c,h,C,H,cpp,hpp,c++,h++
           files-changed-only: false
+          step-summary: true
           # lines-changed-only: false
           # tidy-checks: readability-*
 
